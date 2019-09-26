@@ -9,7 +9,7 @@ A tool to give structure to your day to day after post course!
     - Constraints come from a list of predefined constraints (eg. In under 2 hours, no library allowed, in a new language, etc.)
     - Projects and constraints are randomly chosen
 
-    ![Wireframe of project](./IMG_7056.JPG)
+![Wireframe of project](https://github.com/Katerina-codes/pcpst/blob/master/IMG_7056.JPG)
 
 ## TO DO
 
