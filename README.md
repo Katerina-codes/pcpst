@@ -13,4 +13,5 @@ A tool to give structure to your day to day after post course!
 
 ## TO DO
 
-  [] Change name of the project
+- [ ] Change name of the project
+- [ ] Think about how to store and add projects
