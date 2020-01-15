@@ -11,6 +11,21 @@ A tool to give structure to your day to day after post course!
 
 ![Wireframe of project](https://github.com/Katerina-codes/pcpst/blob/master/IMG_7056.JPG)
 
+## Run the app!
+
+Run the app using:
+```
+npm start
+```
+
+## Run the tests
+We are using Cypress for end-to-end testing.
+Run the tests using:
+```
+npx cypress run
+```
+
+
 ## TO DO
 
 - [ ] Change name of the project
