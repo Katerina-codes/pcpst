@@ -15,5 +15,6 @@ describe('Webpage tests', function() {
 
     cy.get('button').click()
     cy.contains('You should try doing the Airport challenge')
+    cy.contains('Give me a task!').should('not.visible')
   })
 })
