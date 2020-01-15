@@ -15,22 +15,27 @@ class App extends React.Component {
     })
   }
 
-  render(){
-    if (this.state.buttonClicked) {
-      return <p>You should try doing the Airport challenge</p>
-    }
+  render() {
+
     return (
-      <div className="App">
 
-          <p>
-            So... what should I work on today?
-          </p>
+    <div className="App">
 
-          <button
-            onClick={() => {this.displayTask()}}
-          >
-            Give me a task!
-          </button>
+    {(this.state.buttonClicked) ?
+      (<p>You should try doing the Airport challenge</p>)
+      :
+      (<div><p>
+         So... what should I work on today?
+       </p>
+
+       <button
+         onClick={() => {this.displayTask()}}
+       >
+        Give me a task!
+
+       </button></div>)
+    }
+
       </div>
     );
   }
